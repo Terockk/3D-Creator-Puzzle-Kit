@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8744576117307183383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Hover 1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Hover 1
+  Guid:
+    Data1: -997664332
+    Data2: 1250797859
+    Data3: -1061100406
+    Data4: 979651891
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-8520085195025596375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Pause
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Pause
+  Guid:
+    Data1: 572928041
+    Data2: 1204444762
+    Data3: -2070747255
+    Data4: 823117180
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-7748797658621752632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: parameter:/Parameter 1
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3990907441
+    data2: 1121777681
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Paused
+  - Running
+  Exists: 1
+--- !u!114 &-7420510735661120530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Click 3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Click 3
+  Guid:
+    Data1: -1353051737
+    Data2: 1152744832
+    Data3: -2093819003
+    Data4: 2087701804
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-6755765518929613819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Hover 2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Hover 2
+  Guid:
+    Data1: -842621341
+    Data2: 1237465267
+    Data3: 1479813775
+    Data4: 387397799
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-6191793208366177213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Hover 4
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Hover 4
+  Guid:
+    Data1: 936240067
+    Data2: 1330200348
+    Data3: 1576938425
+    Data4: -649529358
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5207699198952533820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pause
+  m_EditorClassIdentifier: 
+  Path: event:/Pause
+  Guid:
+    Data1: -487477761
+    Data2: 1285653946
+    Data3: 1307586741
+    Data4: -893954025
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6616600719146656619}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1069320950459305073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat
+  m_EditorClassIdentifier: 
+  Name: Combat
+  StudioPath: parameter:/Combat
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2203984692
+    data2: 2464155831
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-820290795268849995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Click 2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Click 2
+  Guid:
+    Data1: -623751696
+    Data2: 1210121075
+    Data3: 447120284
+    Data4: -1803695670
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 169480717871468592}
+  - {fileID: 6039540616097565078}
+  EditorEvents:
+  - {fileID: -8520085195025596375}
+  - {fileID: -6755765518929613819}
+  - {fileID: -7420510735661120530}
+  - {fileID: 347677468137576367}
+  - {fileID: 6994163822522724167}
+  - {fileID: -8744576117307183383}
+  - {fileID: -6191793208366177213}
+  - {fileID: 1814280350370462856}
+  - {fileID: -820290795268849995}
+  - {fileID: -5207699198952533820}
+  EditorParameters:
+  - {fileID: -1069320950459305073}
+  - {fileID: -7748797658621752632}
+  - {fileID: 532127860747420195}
+  - {fileID: 384743092759453440}
+  MasterBanks:
+  - {fileID: 6039540616097565078}
+  StringsBanks:
+  - {fileID: 169480717871468592}
+  cacheTime: 638399960491556248
+  cacheVersion: 131605
+--- !u!114 &169480717871468592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638399960491556248
+  FileSizes:
+  - Name: Desktop
+    Value: 1554
+  Exists: 1
+--- !u!114 &347677468137576367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Hover 3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Hover 3
+  Guid:
+    Data1: -2055348311
+    Data2: 1124448039
+    Data3: -1784080495
+    Data4: -636718853
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &384743092759453440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pause
+  m_EditorClassIdentifier: 
+  Name: Pause
+  StudioPath: parameter:/Pause
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3713624242
+    data2: 1311740188
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Play
+  - Pause
+  Exists: 1
+--- !u!114 &532127860747420195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  StudioPath: parameter:/Speed
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 1220786221
+    data2: 1998874501
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1814280350370462856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Click
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Click
+  Guid:
+    Data1: -293822747
+    Data2: 1313415867
+    Data3: 1084003214
+    Data4: 1383968774
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1607
+--- !u!114 &6039540616097565078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638399960491536261
+  FileSizes:
+  - Name: Desktop
+    Value: 98400
+  Exists: 1
+--- !u!114 &6616600719146656619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pause/Pause
+  m_EditorClassIdentifier: 
+  Name: Pause
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3713624242
+    data2: 1311740188
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Play
+  - Pause
+  Exists: 1
+--- !u!114 &6994163822522724167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Click 1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Click 1
+  Guid:
+    Data1: 170536362
+    Data2: 1177525987
+    Data3: 231486615
+    Data4: 659654653
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
