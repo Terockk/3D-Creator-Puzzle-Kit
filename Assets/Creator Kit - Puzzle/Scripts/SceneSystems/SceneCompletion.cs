@@ -15,10 +15,16 @@ public class SceneCompletion : MonoBehaviour
     public PlayableDirector twoStarDirector;
     public PlayableDirector threeStarDirector;
     public SceneReference sceneReference;        // Note that this is assigned automatically when the level is created by the SceneMenuEditor class.
-    
+
+    FMOD.Studio.Bus MusicBus;
+
     // Called when target of level is achieved
     public void CompleteLevel (float time)
     {
+        MusicBus = FMODUnity.RuntimeManager.GetBus("Bus:/Music");
+        MusicBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Music/Level End");
+
         panel.SetActive (true);
         
         int earnedStars = 0;

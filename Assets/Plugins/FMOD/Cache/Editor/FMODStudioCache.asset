@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9074673773871885382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Menu Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Menu Music
+  Guid:
+    Data1: 658571904
+    Data2: 1270455795
+    Data3: 143759763
+    Data4: 445683246
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48301
 --- !u!114 &-8892931364110210507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,6 +353,33 @@ MonoBehaviour:
   MinDistance: 5
   MaxDistance: 20
   Length: 589
+--- !u!114 &-3068114945960455603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Star 3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Star 3
+  Guid:
+    Data1: 1181805356
+    Data2: 1134883371
+    Data3: -550524286
+    Data4: -1408831282
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2429
 --- !u!114 &-820290795268849995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,13 +438,19 @@ MonoBehaviour:
   - {fileID: -8169155432408229083}
   - {fileID: -5182631301114823213}
   - {fileID: -7700463817372034262}
+  - {fileID: 9011637757250298653}
+  - {fileID: 1641637927072351108}
+  - {fileID: -9074673773871885382}
+  - {fileID: -3068114945960455603}
+  - {fileID: 7413266784383418465}
+  - {fileID: 2288920889198447581}
   EditorParameters:
   - {fileID: 384743092759453440}
   MasterBanks:
   - {fileID: 6039540616097565078}
   StringsBanks:
   - {fileID: 169480717871468592}
-  cacheTime: 638400786341008001
+  cacheTime: 638400811709677614
   cacheVersion: 131605
 --- !u!114 &169480717871468592
 MonoBehaviour:
@@ -407,10 +467,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638400786341008001
+  lastModified: 638400811709677614
   FileSizes:
   - Name: Desktop
-    Value: 2026
+    Value: 2284
   Exists: 1
 --- !u!114 &347677468137576367
 MonoBehaviour:
@@ -465,6 +525,33 @@ MonoBehaviour:
   - Play
   - Pause
   Exists: 1
+--- !u!114 &1641637927072351108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Gameplay Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Gameplay Music
+  Guid:
+    Data1: -284878501
+    Data2: 1338317333
+    Data3: -1537652333
+    Data4: 437219257
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38787
 --- !u!114 &1814280350370462856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +579,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1607
+--- !u!114 &2288920889198447581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Star 2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Star 2
+  Guid:
+    Data1: -538338835
+    Data2: 1186134763
+    Data3: 166340523
+    Data4: 1557333514
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2413
 --- !u!114 &3537179716362713942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,10 +744,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638400786340985410
+  lastModified: 638400811709657588
   FileSizes:
   - Name: Desktop
-    Value: 479296
+    Value: 1849984
   Exists: 1
 --- !u!114 &6616600719146656619
 MonoBehaviour:
@@ -688,6 +802,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
+--- !u!114 &7413266784383418465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/General/Star 1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/General/Star 1
+  Guid:
+    Data1: -1941240490
+    Data2: 1317375344
+    Data3: -781146440
+    Data4: 2095543407
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2413
 --- !u!114 &8861842798694708591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -712,3 +853,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &9011637757250298653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level End
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level End
+  Guid:
+    Data1: 1205187646
+    Data2: 1088778925
+    Data3: -1260548432
+    Data4: -965727776
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4848

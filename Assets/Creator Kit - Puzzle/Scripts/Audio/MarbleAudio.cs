@@ -6,31 +6,31 @@ public class MarbleAudio : MonoBehaviour
     public LayerMask concreteMask;
     public LayerMask metalMask;
     public float distanceToGround;
-    public AudioSource movementAudioSource;
-    public AudioSource rollingAudioSource;
-    public AudioSource impactAudioSource;
-    public AudioClip plasticImpact;
-    public AudioClip metalImpact;
-    public AudioClip concreteImpact;
+    //public AudioSource movementAudioSource;
+    //public AudioSource rollingAudioSource;
+    //public AudioSource impactAudioSource;
+    //public AudioClip plasticImpact;
+    //public AudioClip metalImpact;
+    //public AudioClip concreteImpact;
 
     bool m_IsGrounded;
     float m_Speed;
     float m_Speed_Y;
     Rigidbody m_Rigidbody;
 
-    static readonly AudioAdjustmentSettings k_GroundedRollingVolume = new AudioAdjustmentSettings (1f / 1.5f, 0f, 1f, 25f );
-    static readonly AudioAdjustmentSettings k_GroundedRollingPitch = new AudioAdjustmentSettings (1f / 1.2f, 0.5f, 2f, 15f);
-    static readonly AudioAdjustmentSettings k_MovementVolume = new AudioAdjustmentSettings(1f / 7f, 0f, 0.7f, 70f);
-    static readonly AudioAdjustmentSettings k_MovementPitch = new AudioAdjustmentSettings(1f / 7f, 0f, 1f, 70f);
-    static readonly AudioAdjustmentSettings k_ImpactPitch = new AudioAdjustmentSettings(1f / 1.2f, 0.8f, 2f, float.PositiveInfinity);
+    //static readonly AudioAdjustmentSettings k_GroundedRollingVolume = new AudioAdjustmentSettings (1f / 1.5f, 0f, 1f, 25f );
+    //static readonly AudioAdjustmentSettings k_GroundedRollingPitch = new AudioAdjustmentSettings (1f / 1.2f, 0.5f, 2f, 15f);
+    //static readonly AudioAdjustmentSettings k_MovementVolume = new AudioAdjustmentSettings(1f / 7f, 0f, 0.7f, 70f);
+    //static readonly AudioAdjustmentSettings k_MovementPitch = new AudioAdjustmentSettings(1f / 7f, 0f, 1f, 70f);
+    //static readonly AudioAdjustmentSettings k_ImpactPitch = new AudioAdjustmentSettings(1f / 1.2f, 0.8f, 2f, float.PositiveInfinity);
 
-    const float k_AirborneRollingTargetVolume = 0f;
-    const float k_AirborneRollingVolumeChangeRate = 15f;
+    //const float k_AirborneRollingTargetVolume = 0f;
+    //const float k_AirborneRollingVolumeChangeRate = 15f;
     
-    const float k_AirborneRollingTargetPitch = 2f;
-    const float k_AirborneRollingPitchChangeRate = 15f;
+    //const float k_AirborneRollingTargetPitch = 2f;
+    //const float k_AirborneRollingPitchChangeRate = 15f;
     
-    const float k_ImpactSpeedToVolume = 1f / 3f;
+    //const float k_ImpactSpeedToVolume = 1f / 3f;
 
     FMOD.Studio.EventInstance MarbleRoll;
     FMOD.Studio.EventInstance MarbleMovement;
@@ -53,7 +53,7 @@ public class MarbleAudio : MonoBehaviour
         m_IsGrounded = Physics.Raycast(m_Rigidbody.position, Vector3.down, distanceToGround);
         m_Speed = m_Rigidbody.velocity.magnitude;
         m_Speed_Y = System.Math.Abs(m_Rigidbody.velocity.y);
-        print(m_Speed_Y);
+
         MarbleMovement.setParameterByName("MovementVolume", m_Speed);
         MarbleMovement.setParameterByName("MovementPitch", m_Speed);
 
