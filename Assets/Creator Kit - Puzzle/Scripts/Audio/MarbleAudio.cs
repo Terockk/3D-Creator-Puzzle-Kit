@@ -15,6 +15,7 @@ public class MarbleAudio : MonoBehaviour
 
     bool m_IsGrounded;
     float m_Speed;
+    float m_Speed_Y;
     Rigidbody m_Rigidbody;
 
     static readonly AudioAdjustmentSettings k_GroundedRollingVolume = new AudioAdjustmentSettings (1f / 1.5f, 0f, 1f, 25f );
@@ -31,16 +32,44 @@ public class MarbleAudio : MonoBehaviour
     
     const float k_ImpactSpeedToVolume = 1f / 3f;
 
+    FMOD.Studio.EventInstance MarbleRoll;
+    FMOD.Studio.EventInstance MarbleMovement;
+    FMOD.Studio.EventInstance MarbleImpact;
+
+    private int Material;
+
     void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody>();
+        MarbleRoll = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Marble/Roll");
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(MarbleRoll, GetComponent<Transform>(), m_Rigidbody);
+        MarbleRoll.start();
+        MarbleMovement = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Marble/Movement Wind");
+        MarbleMovement.start();
     }
     
     void FixedUpdate()
     {
         m_IsGrounded = Physics.Raycast(m_Rigidbody.position, Vector3.down, distanceToGround);
         m_Speed = m_Rigidbody.velocity.magnitude;
+        m_Speed_Y = System.Math.Abs(m_Rigidbody.velocity.y);
+        print(m_Speed_Y);
+        MarbleMovement.setParameterByName("MovementVolume", m_Speed);
+        MarbleMovement.setParameterByName("MovementPitch", m_Speed);
 
+        if (m_IsGrounded)
+        {
+            MarbleRoll.setParameterByName("GroundedRollingVolume", m_Speed);
+            MarbleRoll.setParameterByName("GroundedRollingPitch", m_Speed);
+        }
+        else
+        {
+            MarbleRoll.setParameterByName("GroundedRollingVolume", 0f);
+            MarbleRoll.setParameterByName("GroundedRollingPitch", 0f);
+        }
+
+        
+        /*
         if (m_IsGrounded)
         {
             rollingAudioSource.volume = AudioAdjustmentSettings.ClampAndInterpolate (rollingAudioSource.volume, m_Speed, k_GroundedRollingVolume);
@@ -54,24 +83,36 @@ public class MarbleAudio : MonoBehaviour
 
         movementAudioSource.volume = AudioAdjustmentSettings.ClampAndInterpolate (movementAudioSource.volume, m_Speed, k_MovementVolume);
         movementAudioSource.pitch = AudioAdjustmentSettings.ClampAndInterpolate (movementAudioSource.pitch, m_Speed, k_MovementPitch);
+        */
     }
 
     void OnCollisionEnter(Collision collision)
     {
         int gameObjectLayerMask = 1 << collision.collider.gameObject.layer;
-        AudioClip clip = null;
-        
-        if ((gameObjectLayerMask & plasticMask) == gameObjectLayerMask)
-            clip = plasticImpact;
-        else if ((gameObjectLayerMask & concreteMask) == gameObjectLayerMask)
-            clip = concreteImpact;
-        else if ((gameObjectLayerMask & metalMask) == gameObjectLayerMask)
-            clip = metalImpact;
+        //AudioClip clip = null;
 
-        if (clip != null)
+        MarbleImpact = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Marble/Impact");
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(MarbleImpact, GetComponent<Transform>(), m_Rigidbody);
+        MarbleImpact.setParameterByName("ImpactVolume", m_Speed_Y);
+        MarbleImpact.setParameterByName("ImpactPitch", m_Speed_Y);
+
+        if ((gameObjectLayerMask & plasticMask) == gameObjectLayerMask)
+            //clip = plasticImpact;
+            MarbleImpact.setParameterByName("Material", 1);
+        else if ((gameObjectLayerMask & concreteMask) == gameObjectLayerMask)
+            //clip = concreteImpact;
+            MarbleImpact.setParameterByName("Material", 2);
+        else if ((gameObjectLayerMask & metalMask) == gameObjectLayerMask)
+            //clip = metalImpact;
+            MarbleImpact.setParameterByName("Material", 3);
+
+        MarbleImpact.start();
+        MarbleImpact.release();
+
+        /*if (clip != null)
         {
             impactAudioSource.pitch = Mathf.Clamp(m_Speed * k_ImpactPitch.speedTo, k_ImpactPitch.min, k_ImpactPitch.max);
             impactAudioSource.PlayOneShot(metalImpact, Mathf.Clamp01(m_Speed * k_ImpactSpeedToVolume));
-        }
+        }*/
     }
 }

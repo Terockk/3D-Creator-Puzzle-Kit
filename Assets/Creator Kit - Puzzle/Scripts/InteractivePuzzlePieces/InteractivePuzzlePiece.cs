@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public abstract class InteractivePuzzlePiece<TComponent> : BaseInteractivePuzzlePiece
 where TComponent : Component
@@ -13,9 +14,9 @@ public abstract class BaseInteractivePuzzlePiece : MonoBehaviour
 {
     public KeyCode interactKey = KeyCode.Space;
     public Rigidbody rb;
-    public AudioClip activateSound;
-    public AudioClip deactivateSound;
-    public AudioSource puzzleAudioSource;
+    public EventReference activateSound;
+    public EventReference deactivateSound;
+    //public AudioSource puzzleAudioSource;
 
     bool m_IsControlable;
     
@@ -33,7 +34,16 @@ public abstract class BaseInteractivePuzzlePiece : MonoBehaviour
     
     void Update()
     {
-        if (deactivateSound != null && Input.GetKeyUp(interactKey))
+        if (Input.GetKeyUp(interactKey))
+        {
+            FMODUnity.RuntimeManager.PlayOneShotAttached(deactivateSound, gameObject);
+        }
+        if (Input.GetKeyDown(interactKey))
+        {
+            FMODUnity.RuntimeManager.PlayOneShotAttached(activateSound, gameObject);
+        }
+
+        /*if (deactivateSound != null && Input.GetKeyUp(interactKey))
         {
             puzzleAudioSource.pitch = Random.Range(0.8f, 1.2f);
             puzzleAudioSource.PlayOneShot(deactivateSound);
@@ -42,7 +52,7 @@ public abstract class BaseInteractivePuzzlePiece : MonoBehaviour
         {
             puzzleAudioSource.pitch = Random.Range(0.8f, 1.2f);
             puzzleAudioSource.PlayOneShot(activateSound);
-        }
+        }*/
     }
 
     protected abstract void ApplyActiveState ();

@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8892931364110210507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Movement Wind/MovementVolume
+  m_EditorClassIdentifier: 
+  Name: MovementVolume
+  StudioPath: 
+  Min: 0
+  Max: 6
+  Default: 0
+  ID:
+    data1: 880596707
+    data2: 420246427
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-8744576117307183383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,7 +78,36 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-7748797658621752632
+--- !u!114 &-8169155432408229083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Marble/Movement Wind
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Marble/Movement Wind
+  Guid:
+    Data1: -1534965221
+    Data2: 1248050200
+    Data3: -187957315
+    Data4: -381838748
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8861842798694708591}
+  - {fileID: -8892931364110210507}
+  MinDistance: 5
+  MaxDistance: 20
+  Length: 21531
+--- !u!114 &-8025665136541026464
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,22 +117,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Parameter 1
+  m_Name: parameter:/Impact/ImpactPitch
   m_EditorClassIdentifier: 
-  Name: Parameter 1
-  StudioPath: parameter:/Parameter 1
+  Name: ImpactPitch
+  StudioPath: 
   Min: 0
-  Max: 1
-  Default: 1
+  Max: 5
+  Default: 0
   ID:
-    data1: 3990907441
-    data2: 1121777681
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Paused
-  - Running
+    data1: 2318843429
+    data2: 3179201840
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
+--- !u!114 &-7700463817372034262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Marble/Impact
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Marble/Impact
+  Guid:
+    Data1: 1727091258
+    Data2: 1077791183
+    Data3: -1407026279
+    Data4: -166241420
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4781504573989134043}
+  - {fileID: 5709749826859743740}
+  - {fileID: -8025665136541026464}
+  MinDistance: 5
+  MaxDistance: 20
+  Length: 723
 --- !u!114 &-7420510735661120530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,7 +270,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-1069320950459305073
+--- !u!114 &-5182631301114823213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -198,21 +279,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Combat
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Marble/Roll
   m_EditorClassIdentifier: 
-  Name: Combat
-  StudioPath: parameter:/Combat
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2203984692
-    data2: 2464155831
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
+  Path: event:/SFX/Marble/Roll
+  Guid:
+    Data1: -1018734262
+    Data2: 1261028357
+    Data3: 2094697616
+    Data4: 1101575249
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5941774635561616886}
+  - {fileID: 3537179716362713942}
+  MinDistance: 5
+  MaxDistance: 20
+  Length: 6857
+--- !u!114 &-4791651962479751574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzle Pieces/DeactivateSmall
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzle Pieces/DeactivateSmall
+  Guid:
+    Data1: -109744582
+    Data2: 1305502889
+    Data3: -1861086336
+    Data4: -1674503280
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 5
+  MaxDistance: 20
+  Length: 589
 --- !u!114 &-820290795268849995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,16 +379,18 @@ MonoBehaviour:
   - {fileID: 1814280350370462856}
   - {fileID: -820290795268849995}
   - {fileID: -5207699198952533820}
+  - {fileID: -4791651962479751574}
+  - {fileID: 5746561160319607992}
+  - {fileID: -8169155432408229083}
+  - {fileID: -5182631301114823213}
+  - {fileID: -7700463817372034262}
   EditorParameters:
-  - {fileID: -1069320950459305073}
-  - {fileID: -7748797658621752632}
-  - {fileID: 532127860747420195}
   - {fileID: 384743092759453440}
   MasterBanks:
   - {fileID: 6039540616097565078}
   StringsBanks:
   - {fileID: 169480717871468592}
-  cacheTime: 638399960491556248
+  cacheTime: 638400786341008001
   cacheVersion: 131605
 --- !u!114 &169480717871468592
 MonoBehaviour:
@@ -292,10 +407,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638399960491556248
+  lastModified: 638400786341008001
   FileSizes:
   - Name: Desktop
-    Value: 1554
+    Value: 2026
   Exists: 1
 --- !u!114 &347677468137576367
 MonoBehaviour:
@@ -350,30 +465,6 @@ MonoBehaviour:
   - Play
   - Pause
   Exists: 1
---- !u!114 &532127860747420195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Speed
-  m_EditorClassIdentifier: 
-  Name: Speed
-  StudioPath: parameter:/Speed
-  Min: 1
-  Max: 3
-  Default: 1
-  ID:
-    data1: 1220786221
-    data2: 1998874501
-  Type: 1
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &1814280350370462856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,6 +492,129 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1607
+--- !u!114 &3537179716362713942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/GroundedRollingVolume
+  m_EditorClassIdentifier: 
+  Name: GroundedRollingVolume
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 1800754989
+    data2: 2133474554
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4781504573989134043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Impact/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 169376881
+    data2: 43241168
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5709749826859743740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Impact/ImpactVolume
+  m_EditorClassIdentifier: 
+  Name: ImpactVolume
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 1008649411
+    data2: 1626911139
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5746561160319607992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzle Pieces/ActivateSmall
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzle Pieces/ActivateSmall
+  Guid:
+    Data1: 583919202
+    Data2: 1185741917
+    Data3: 1208314789
+    Data4: -1118864470
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 5
+  MaxDistance: 20
+  Length: 1071
+--- !u!114 &5941774635561616886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/GroundedRollingPitch
+  m_EditorClassIdentifier: 
+  Name: GroundedRollingPitch
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 1691239526
+    data2: 292411144
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6039540616097565078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,10 +630,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638399960491536261
+  lastModified: 638400786340985410
   FileSizes:
   - Name: Desktop
-    Value: 98400
+    Value: 479296
   Exists: 1
 --- !u!114 &6616600719146656619
 MonoBehaviour:
@@ -474,3 +688,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
+--- !u!114 &8861842798694708591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Movement Wind/MovementPitch
+  m_EditorClassIdentifier: 
+  Name: MovementPitch
+  StudioPath: 
+  Min: 0
+  Max: 6
+  Default: 0
+  ID:
+    data1: 3693881914
+    data2: 2334002723
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1

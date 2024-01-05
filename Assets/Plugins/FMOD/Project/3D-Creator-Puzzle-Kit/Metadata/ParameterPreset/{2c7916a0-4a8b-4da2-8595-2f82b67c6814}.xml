@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2c7916a0-4a8b-4da2-8595-2f82b67c6814}">
+		<property name="name">
+			<value>GroundedRollingPitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8bac59a0-db62-42c0-96b4-dcb09c8cdb21}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{533363a8-cd20-42ff-8b96-8e8f658eab0a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{533363a8-cd20-42ff-8b96-8e8f658eab0a}">
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>11.764705882352942</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
