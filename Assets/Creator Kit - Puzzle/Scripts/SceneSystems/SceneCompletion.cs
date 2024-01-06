@@ -18,12 +18,19 @@ public class SceneCompletion : MonoBehaviour
 
     FMOD.Studio.Bus MusicBus;
 
+    bool win = false;
+
     // Called when target of level is achieved
     public void CompleteLevel (float time)
     {
         MusicBus = FMODUnity.RuntimeManager.GetBus("Bus:/Music");
         MusicBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Music/Level End");
+        if (win == false)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Music/Level End");
+            win = true;
+        }
+        
 
         panel.SetActive (true);
         

@@ -15,7 +15,7 @@ C:/Users/Diogo/Documents/GitHub/3D-Creator-Puzzle-Kit
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62717
+62385
 Successfully changed project path to: C:/Users/Diogo/Documents/GitHub/3D-Creator-Puzzle-Kit
 C:/Users/Diogo/Documents/GitHub/3D-Creator-Puzzle-Kit
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Diogo/Documents/GitHub/3D-Creator-Puzzle-Kit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 72.86 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 72.37 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,121 +63,141 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002710 seconds.
+Registered in 0.003145 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.61 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 74.96 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.385 seconds
+- Completed reload, in  0.394 seconds
 Domain Reload Profiling:
-	ReloadAssembly (385ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (395ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (279ms)
+		EndReloadAssembly (289ms)
 			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (62ms)
+			SetupTypeCache (60ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (169ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004669 seconds.
+Registered in 0.004511 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Diogo\Documents\GitHub\3D-Creator-Puzzle-Kit\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Diogo\Documents\GitHub\3D-Creator-Puzzle-Kit\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
+- Completed reload, in  0.704 seconds
 Domain Reload Profiling:
-	ReloadAssembly (690ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (556ms)
-			LoadAssemblies (48ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 125 unused Assets / (1.4 MB). Loaded Objects now: 4524.
-Memory consumption went from 151.5 MB to 150.1 MB.
-Total: 2.434500 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.090100 ms MarkObjects: 1.955800 ms  DeleteObjects: 0.206200 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 13672.647162 seconds.
-  path: Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
-  artifactKey: Guid(0b6904103cbb08949987542420195582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset using Guid(0b6904103cbb08949987542420195582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59bbd08d6cfbd68fe9250d96364427b') in 0.025285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Assets/Marble Roll 2.ogg
-  artifactKey: Guid(232633c6666838b4888d2fd3dbdf201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Assets/Marble Roll 2.ogg using Guid(232633c6666838b4888d2fd3dbdf201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139de18783789cd46f27ec0404ab9d2f') in 0.078985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Assets/Marble Roll 4.ogg
-  artifactKey: Guid(c5998714c23cc6e42b21efa255784908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Assets/Marble Roll 4.ogg using Guid(c5998714c23cc6e42b21efa255784908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cf692e3d3bc78fb01b799119dc3527') in 0.006882 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Received signal SIGSEGV
+Obtained 44 stack frames
+0x00007ffdb25289cc (igd10um64xe) OpenAdapter10_2
+0x00007ffdb2525d0f (igd10um64xe) OpenAdapter10_2
+0x00007ffdb252508d (igd10um64xe) OpenAdapter10_2
+0x00007ffdb249cbee (igd10um64xe) ctlInit
+0x00007ffdb24ab97b (igd10um64xe) ctlInit
+0x00007ffdb23fc1e0 (igd10um64xe) ctlInit
+0x00007ffdb23fc139 (igd10um64xe) ctlInit
+0x00007ffdb23fc28c (igd10um64xe) ctlInit
+0x00007ffdb2446844 (igd10um64xe) ctlInit
+0x00007ffdb8b5d8ff (d3d11) 
+0x00007ffdb8b5530d (d3d11) 
+0x00007ffdb8b706c8 (d3d11) EnableFeatureLevelUpgrade
+0x00007ffdb8b715dc (d3d11) EnableFeatureLevelUpgrade
+0x00007ffdb8b72004 (d3d11) EnableFeatureLevelUpgrade
+0x00007ffdb8b5914e (d3d11) 
+0x00007ffdb8b595b6 (d3d11) 
+0x00007ffdb8b59078 (d3d11) 
+0x00007ff7a5a646f4 (Unity) D3D11PixelShader::D3D11PixelShader
+0x00007ff7a58702b9 (Unity) CreateGpuProgram
+0x00007ff7a5b01365 (Unity) GfxDeviceClient::CreateGpuProgram
+0x00007ff7a5709ac1 (Unity) ShaderLab::SubProgram::Compile
+0x00007ff7a63d7ee0 (Unity) FinalizeVariant
+0x00007ff7a63da208 (Unity) GetSubProgramForShaderSnippet
+0x00007ff7a570a280 (Unity) ShaderLab::Program::CompileShaderSubProgram
+0x00007ff7a570b6eb (Unity) ShaderLab::Program::GetMatchingSubProgram
+0x00007ff7a571228c (Unity) ShaderLab::ShaderState::FindSubProgramsToUse
+0x00007ff7a57054b7 (Unity) ShaderLab::Pass::PrepareVariant
+0x00007ff7a56f49eb (Unity) ShaderVariantCollection::WarmupOneShaderImpl
+0x00007ff7a56f526a (Unity) ShaderVariantCollection::WarmupShadersImpl
+0x00007ff7a63e3716 (Unity) WarmupEditorShaders
+0x00007ff7a706bede (Unity) Shader::ReloadAllShaders
+0x00007ff7a6d0fc5d (Unity) <lambda_f17e4be6fe48f68974bfa9f52985273f>::operator()
+0x00007ff7a6d4f682 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7a6d3b56e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7a6d3d19e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff7a6d4da6e (Unity) IOService::Run
+0x00007ff7a6d2067f (Unity) AssetImportWorkerClient::Run
+0x00007ff7a6cea7b3 (Unity) RunAssetImportWorkerClientV2
+0x00007ff7a6cea83b (Unity) RunAssetImporterV2
+0x00007ff7a650c968 (Unity) Application::InitializeProject
+0x00007ff7a696b768 (Unity) WinMain
+0x00007ff7a7d0b91e (Unity) __scrt_common_main_seh
+0x00007ffdbfaa257d (KERNEL32) BaseThreadInitThunk
+0x00007ffdbfd8aa58 (ntdll) RtlUserThreadStart
+

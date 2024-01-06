@@ -11,6 +11,8 @@ public class TargetTrigger : MonoBehaviour
     public TargetGroupWeightControl targetGroupWeightControl;
     public ParticleSystem completeParticleSystem;
 
+    bool win = false;
+
     AudioSource m_AudioSource;
 
     void Awake ()
@@ -25,7 +27,11 @@ public class TargetTrigger : MonoBehaviour
             completeParticleSystem.Play();
             timingRecording.GoalReached (uiDelay);
             targetGroupWeightControl.ApplySpecificFocus (marble.attachedRigidbody);
-            m_AudioSource.PlayOneShot (m_AudioSource.clip);
+            if (win == false)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/General/Win");
+                win = true;
+            }
         }
     }
 }

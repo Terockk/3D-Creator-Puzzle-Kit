@@ -1,0 +1,637 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1704578195659215, "dur": 482851, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578195659402, "dur": 9786, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578195669190, "dur": 31708, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578195700900, "dur": 304723, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578196005624, "dur": 129906, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578196135532, "dur": 6533, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578196143024, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1704578195874704, "dur": 103270, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704578195875451, "dur": 38310, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704578195966184, "dur": 3468, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704578195969655, "dur": 8301, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704578195970166, "dur": 7041, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704578195981293, "dur": 957, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704578195980748, "dur": 1517, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578196143149, "dur": 224, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1704578196040363, "dur":878, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196041246, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1704578196041325, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1704578196041338, "dur":353, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1704578196041708, "dur":356, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196042064, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107173, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107325, "dur":149, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107474, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107478, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107485, "dur":21, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107506, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107511, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107512, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107515, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107516, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107520, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107520, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107523, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107524, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107528, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107529, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107531, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107532, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107535, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107536, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107538, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107539, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107542, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107565, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107568, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107568, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107571, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107572, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107574, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107575, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107578, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107579, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107583, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107591, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196107607, "dur":1246, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1704578196042285, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196042285, "dur":2632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196044917, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1704578196045132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196048134, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1704578196050316, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196050487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196050872, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196054297, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196054443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196054446, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196057047, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196057167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196057172, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196060771, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196061032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196061037, "dur":3791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196064853, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196065084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196065116, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196068338, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196068692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196068698, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196072972, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196073107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196073111, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196076712, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196076811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196076814, "dur":5114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704578196081950, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/StreamingAssets/Master.bank" }}
+,{ "pid":12345, "tid":1, "ts":1704578196081976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196081979, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/StreamingAssets/Master.bank" }}
+,{ "pid":12345, "tid":1, "ts":1704578196084441, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1704578196084468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704578196084472, "dur":3510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1704578196088013, "dur":19181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196042179, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196042179, "dur":2717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196044901, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1704578196045635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196047879, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1704578196049785, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1704578196049879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196049885, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1704578196051622, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196051756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196051763, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196054570, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196054806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196054808, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196057790, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196057907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196057912, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196060846, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196060953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196060957, "dur":3596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196064591, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196064764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196064769, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196067748, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196067829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196067832, "dur":3455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196071310, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196071404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196071409, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196074951, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196075168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196075174, "dur":4416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196079655, "dur":2239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Plugins/x86_64/fmodstudio.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196081897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196082201, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Plugins/x86_64/fmodstudio.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704578196085227, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1704578196085255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704578196085258, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1704578196088742, "dur":18425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196042210, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196042211, "dur":2690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196044905, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1704578196045160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196047968, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1704578196050467, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196050607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196050860, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196054205, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196054451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196054456, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196056948, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196057189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196057194, "dur":4169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196061397, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196061558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196061563, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196065580, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196065692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196065698, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196068689, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196068830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196068835, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196072765, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196072870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196072890, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196076116, "dur":1732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196077851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196077857, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704578196082537, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1704578196082561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196082565, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1704578196084245, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1704578196084405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704578196084410, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1704578196087537, "dur":19675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704578196041963, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704578196042069, "dur":2831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704578196044901, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1704578196045731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704578196047881, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1704578196050158, "dur":49702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704578196099863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704578196099867, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704578196107138, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1704578196107140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196041966, "dur":107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196042073, "dur":2830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196044903, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1704578196045143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196048144, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1704578196050247, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle.exe" }}
+,{ "pid":12345, "tid":5, "ts":1704578196050731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196050735, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle.exe" }}
+,{ "pid":12345, "tid":5, "ts":1704578196053464, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196053602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196053607, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196055591, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196055693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196055696, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196058023, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196058124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196058159, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196062457, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196062556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196062561, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196066094, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196066238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196066242, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196068749, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196068896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196068899, "dur":4302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196073218, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196073294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196073297, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196077076, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196077217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196077223, "dur":5132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704578196082412, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1704578196082473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196082621, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1704578196084194, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1704578196084322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704578196084330, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1704578196088045, "dur":19119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196042182, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196042182, "dur":2715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196044901, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1704578196045135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196048192, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1704578196050323, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196050468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196050901, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196054311, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196054471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196054476, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196056715, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196056834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196056839, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196059560, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196059720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196059724, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196063854, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196063979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196063986, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196066988, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196067184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196067189, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196071123, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196071257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196071273, "dur":3847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196075161, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196075338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196075342, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196078431, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196078587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196078593, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704578196083655, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1704578196083683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196083688, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1704578196086953, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1704578196087109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704578196087114, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1704578196089772, "dur":17413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196042054, "dur":11, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196042065, "dur":2830, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196044901, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1704578196044907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196045970, "dur":472, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1704578196046445, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1704578196046473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196046718, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1704578196048761, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1704578196048856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196048897, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1704578196050757, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196050892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196051288, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196054075, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196054193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196054198, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196056926, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196057127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196057133, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196061799, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196061896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196061899, "dur":4234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196066195, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196066312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196066315, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196069538, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196069702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196069707, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196073530, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196073640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196073644, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196077001, "dur":1038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196078042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196078047, "dur":4552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704578196082643, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1704578196082673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196082677, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1704578196085616, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1704578196085640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704578196085644, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1704578196089103, "dur":18065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196042203, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196042203, "dur":2695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196044901, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1704578196045573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196047950, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1704578196050108, "dur":12851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196062962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196063010, "dur":4203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196067248, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196067384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196067389, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196071355, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196071438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196071441, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196075224, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196075363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196075367, "dur":3193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196078616, "dur":2507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196081125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196081130, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704578196085910, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1704578196085998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704578196086004, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1704578196089553, "dur":17653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196042264, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196042264, "dur":2654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196044919, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1704578196045628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196047822, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1704578196049953, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1704578196050020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196050025, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1704578196052177, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196052373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196052379, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196054549, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196054767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196054772, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196057761, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196057849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196057852, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196060739, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196060929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196060936, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196064528, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196064683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196064688, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196067779, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196067876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196067881, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196071433, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196071585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196071590, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196075177, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196075311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196075315, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196078631, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196078825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196078829, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704578196082884, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1704578196082910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196082914, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1704578196085114, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level3" }}
+,{ "pid":12345, "tid":9, "ts":1704578196085140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704578196085145, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level3" }}
+,{ "pid":12345, "tid":9, "ts":1704578196088631, "dur":18535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196042226, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196042226, "dur":2723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196044949, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1704578196045675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196047838, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1704578196050035, "dur":2638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196052676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196053155, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196055157, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196055428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196055433, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196058017, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196058113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196058117, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196061534, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196061625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196061629, "dur":3648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196065328, "dur":984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196066315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196066320, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196069463, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196069542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196069545, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196073454, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196073603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196073607, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196076308, "dur":1276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196077587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196077592, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704578196081171, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1704578196081295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196081667, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1704578196083230, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1704578196083258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196083261, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1704578196085815, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1704578196085866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704578196085871, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1704578196089326, "dur":17848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196042254, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196042254, "dur":2689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196044944, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1704578196045318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196049352, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1704578196051099, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196051201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196051297, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196053601, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196053758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196053764, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196056083, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196056224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196056228, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196059195, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196059282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196059285, "dur":4507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196063820, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196063983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196063989, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196067059, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196067188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196067192, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196070847, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196070920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196070923, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196074707, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196075444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196075448, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196079600, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196079718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196079722, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704578196083288, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1704578196083317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704578196083321, "dur":6960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1704578196090295, "dur":16884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196042280, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196042280, "dur":2634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196044915, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1704578196045155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196048864, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1704578196050764, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196050907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196051280, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196054063, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196054196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196054201, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196055883, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196056014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196056019, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196058491, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196058605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196058610, "dur":4332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196062967, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196063082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196063087, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196066628, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196066748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196066753, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196070257, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196070411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196070417, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196074107, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196074292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196074314, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196077118, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196077424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196077430, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196081077, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Plugins/x86_64/resonanceaudio.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196081644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196082289, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Plugins/x86_64/resonanceaudio.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704578196084704, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1704578196084744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704578196084749, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1704578196088171, "dur":19002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196042315, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196042316, "dur":2595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196044913, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1704578196045657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196047844, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1704578196050253, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1704578196050329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196050546, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1704578196054746, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196055536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196055541, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196058272, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196058458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196058464, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196062472, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196062622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196062625, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196066161, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196066286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196066291, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196069371, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196069603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196069607, "dur":3825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196073458, "dur":1704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196075166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196075173, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196079315, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/FMODUnityResonance.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196079394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196079435, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/FMODUnityResonance.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704578196083531, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1704578196083560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704578196083564, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1704578196087475, "dur":19695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196042299, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196042299, "dur":2607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196044907, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1704578196045553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196047839, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1704578196050199, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1704578196050925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196050929, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1704578196054099, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196054213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196054218, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196056369, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196056738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196056743, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196060407, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196060612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196060618, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196064373, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196064512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196064519, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196067584, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196067689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196067693, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196071727, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196071831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196071835, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196075269, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196075415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196075420, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196079555, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196079796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196079799, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704578196083687, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1704578196083715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704578196083719, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1704578196087052, "dur":20119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196042376, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196042376, "dur":2523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196044901, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1704578196045112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196047953, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1704578196050335, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196050475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196050865, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196054298, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196054411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196054415, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196056401, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196056518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196056522, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196058989, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196059073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196059076, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196063215, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196063374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196063379, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196066618, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196066723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196066727, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196070417, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196070504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196070507, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196074147, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196074428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196074433, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196077391, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196077898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196077904, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704578196081733, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/StreamingAssets/Master.strings.bank" }}
+,{ "pid":12345, "tid":15, "ts":1704578196081766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196081786, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/StreamingAssets/Master.strings.bank" }}
+,{ "pid":12345, "tid":15, "ts":1704578196083549, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1704578196083606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196083611, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1704578196086415, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1704578196086446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704578196086450, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1704578196089514, "dur":17676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196042333, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196042334, "dur":2573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196044909, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1704578196045081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196047890, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1704578196050352, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196050488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196050915, "dur":3518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196054458, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196054626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196054632, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196057496, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196057589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196057593, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196060893, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196061014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196061019, "dur":4062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196065105, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196065220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196065225, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196067785, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196068056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196068061, "dur":4170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196072254, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196072340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196072343, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196075811, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196076104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196076109, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196079384, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/FMODUnity.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196079710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196079716, "dur":3389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/Managed/FMODUnity.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704578196083146, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":16, "ts":1704578196083196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196083200, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":16, "ts":1704578196085962, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1704578196086003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704578196086008, "dur":3765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Diogo/Desktop/3D Creator Puzzle Kit/Test Puzzle_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1704578196089788, "dur":17467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704578196110125, "dur":1320, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1704578196143456, "dur": 721, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704578196143005, "dur": 1208, "ph": "X", "name": "Write chrome-trace events", "args": {} },
