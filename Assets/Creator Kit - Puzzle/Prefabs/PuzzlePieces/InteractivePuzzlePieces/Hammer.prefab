@@ -53,11 +53,11 @@ MonoBehaviour:
   rb: {fileID: 1190716795}
   activateSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 462338497
+      Data2: 1130983462
+      Data3: -323326543
+      Data4: -76388059
+    Path: event:/SFX/Puzzle Pieces/Hammer Activate
   deactivateSound:
     Guid:
       Data1: 0
