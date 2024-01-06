@@ -64,7 +64,7 @@
 	<object class="MarkerTrack" id="{f6d9ddd6-86ba-418f-bea3-c870cf2616d6}" />
 	<object class="GroupTrack" id="{fe1b5fe1-d10c-4902-af8a-416041e7f72b}">
 		<relationship name="modules">
-			<destination>{a5366cf1-aef3-4454-8818-ad357e012c49}</destination>
+			<destination>{0161efc7-cdad-4506-ab28-8ed873868715}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{faca06c8-0f7c-451a-ba3d-f21e9bdaba4e}</destination>
@@ -72,10 +72,16 @@
 	</object>
 	<object class="Timeline" id="{4b58c6cc-efb3-497a-b0a3-7376a004efe1}">
 		<relationship name="modules">
-			<destination>{a5366cf1-aef3-4454-8818-ad357e012c49}</destination>
+			<destination>{0161efc7-cdad-4506-ab28-8ed873868715}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{64a6aa6e-fa09-4b38-97bb-c4c844ae204c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f2a840f6-da04-4b2f-88ab-4c7532e607b0}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{4b3e6ec0-e957-43f6-a02c-b9deb67f0504}</destination>
 		</relationship>
@@ -95,12 +101,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{129b7ecd-54cc-4df8-aa02-7e0e0b7a4a2d}" />
-	<object class="SingleSound" id="{a5366cf1-aef3-4454-8818-ad357e012c49}">
+	<object class="SingleSound" id="{0161efc7-cdad-4506-ab28-8ed873868715}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="length">
-			<value>48.301882086167801</value>
+			<value>24</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{acd43275-be99-436b-bcab-313a535fef28}</destination>
+			<destination>{9396bcaf-5470-4364-a890-f955bfacd731}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{faca06c8-0f7c-451a-ba3d-f21e9bdaba4e}">
@@ -115,6 +127,17 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{f2a840f6-da04-4b2f-88ab-4c7532e607b0}</destination>
+		</relationship>
+	</object>
+	<object class="SustainPoint" id="{64a6aa6e-fa09-4b38-97bb-c4c844ae204c}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{4b58c6cc-efb3-497a-b0a3-7376a004efe1}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{f6d9ddd6-86ba-418f-bea3-c870cf2616d6}</destination>
 		</relationship>
 	</object>
 	<object class="ADSRModulator" id="{4b3e6ec0-e957-43f6-a02c-b9deb67f0504}">

@@ -22,11 +22,11 @@ MonoBehaviour:
   - {fileID: 6039540616097565078}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 48301
+  Length: 24000
 --- !u!114 &-8892931364110210507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
   - {fileID: -8025665136541026464}
   MinDistance: 5
   MaxDistance: 20
-  Length: 723
+  Length: 1000
 --- !u!114 &-7420510735661120530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,33 +242,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
---- !u!114 &-6191793208366177213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/UI/General/Hover 4
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/UI/General/Hover 4
-  Guid:
-    Data1: 936240067
-    Data2: 1330200348
-    Data3: 1576938425
-    Data4: -649529358
-  Banks:
-  - {fileID: 6039540616097565078}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-5207699198952533820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,33 +299,6 @@ MonoBehaviour:
   MinDistance: 5
   MaxDistance: 20
   Length: 6857
---- !u!114 &-4791651962479751574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzle Pieces/DeactivateSmall
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzle Pieces/DeactivateSmall
-  Guid:
-    Data1: -109744582
-    Data2: 1305502889
-    Data3: -1861086336
-    Data4: -1674503280
-  Banks:
-  - {fileID: 6039540616097565078}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 5
-  MaxDistance: 20
-  Length: 589
 --- !u!114 &-3068114945960455603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,7 +325,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2429
+  Length: 2000
+--- !u!114 &-1428831327516925944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzle Pieces/Door Deactivate
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzle Pieces/Door Deactivate
+  Guid:
+    Data1: -348202454
+    Data2: 1282451407
+    Data3: 127718292
+    Data4: 1486271968
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 1033
 --- !u!114 &-820290795268849995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,12 +402,9 @@ MonoBehaviour:
   - {fileID: 347677468137576367}
   - {fileID: 6994163822522724167}
   - {fileID: -8744576117307183383}
-  - {fileID: -6191793208366177213}
   - {fileID: 1814280350370462856}
   - {fileID: -820290795268849995}
   - {fileID: -5207699198952533820}
-  - {fileID: -4791651962479751574}
-  - {fileID: 5746561160319607992}
   - {fileID: -8169155432408229083}
   - {fileID: -5182631301114823213}
   - {fileID: -7700463817372034262}
@@ -444,13 +414,19 @@ MonoBehaviour:
   - {fileID: -3068114945960455603}
   - {fileID: 7413266784383418465}
   - {fileID: 2288920889198447581}
+  - {fileID: 9121255658381748595}
+  - {fileID: 1478818252164167165}
+  - {fileID: 781301757185466750}
+  - {fileID: 4996692945563091657}
+  - {fileID: -1428831327516925944}
+  - {fileID: 5924981488520964785}
   EditorParameters:
   - {fileID: 384743092759453440}
   MasterBanks:
   - {fileID: 6039540616097565078}
   StringsBanks:
   - {fileID: 169480717871468592}
-  cacheTime: 638400811709677614
+  cacheTime: 638401590880178462
   cacheVersion: 131605
 --- !u!114 &169480717871468592
 MonoBehaviour:
@@ -467,10 +443,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638400811709677614
+  lastModified: 638401590880178462
   FileSizes:
   - Name: Desktop
-    Value: 2284
+    Value: 2456
   Exists: 1
 --- !u!114 &347677468137576367
 MonoBehaviour:
@@ -525,6 +501,60 @@ MonoBehaviour:
   - Play
   - Pause
   Exists: 1
+--- !u!114 &781301757185466750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzle Pieces/Spoon Activate
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzle Pieces/Spoon Activate
+  Guid:
+    Data1: -1068103573
+    Data2: 1130649016
+    Data3: -683618374
+    Data4: -937881179
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &1478818252164167165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzle Pieces/Flipper Activate
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzle Pieces/Flipper Activate
+  Guid:
+    Data1: 583919202
+    Data2: 1185741917
+    Data3: 1208314789
+    Data4: -1118864470
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &1641637927072351108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,11 +577,11 @@ MonoBehaviour:
   - {fileID: 6039540616097565078}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 38787
+  Length: 32000
 --- !u!114 &1814280350370462856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,7 +635,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2413
+  Length: 2000
 --- !u!114 &3537179716362713942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,6 +684,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &4996692945563091657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzle Pieces/Spoon Deactivate
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzle Pieces/Spoon Deactivate
+  Guid:
+    Data1: 390912681
+    Data2: 1099406115
+    Data3: -432228691
+    Data4: 1396227958
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &5709749826859743740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,7 +735,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &5746561160319607992
+--- !u!114 &5924981488520964785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -688,23 +745,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Puzzle Pieces/ActivateSmall
+  m_Name: event:/SFX/Puzzle Pieces/Door Activate
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Puzzle Pieces/ActivateSmall
+  Path: event:/SFX/Puzzle Pieces/Door Activate
   Guid:
-    Data1: 583919202
-    Data2: 1185741917
-    Data3: 1208314789
-    Data4: -1118864470
+    Data1: 206947382
+    Data2: 1304415200
+    Data3: 290179224
+    Data4: -1497360951
   Banks:
   - {fileID: 6039540616097565078}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 5
+  MinDistance: 2
   MaxDistance: 20
-  Length: 1071
+  Length: 1366
 --- !u!114 &5941774635561616886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,10 +801,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638400811709657588
+  lastModified: 638401590880153136
   FileSizes:
   - Name: Desktop
-    Value: 1849984
+    Value: 1681120
   Exists: 1
 --- !u!114 &6616600719146656619
 MonoBehaviour:
@@ -828,7 +885,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2413
+  Length: 2000
 --- !u!114 &8861842798694708591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,4 +936,31 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4848
+  Length: 6000
+--- !u!114 &9121255658381748595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzle Pieces/Flipper Deactivate
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzle Pieces/Flipper Deactivate
+  Guid:
+    Data1: -109744582
+    Data2: 1305502889
+    Data3: -1861086336
+    Data4: -1674503280
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 1000

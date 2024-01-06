@@ -168,9 +168,6 @@
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{5c6a3a48-abc4-421c-a586-61b3e0e33dc1}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{a922e768-9782-4837-9eb3-7ea18e1efc30}</destination>
 		</relationship>
@@ -253,23 +250,6 @@
 		</property>
 		<property name="amount">
 			<value>100</value>
-		</property>
-	</object>
-	<object class="LFOModulator" id="{5c6a3a48-abc4-421c-a586-61b3e0e33dc1}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="rate">
-			<value>0.200000003</value>
-		</property>
-		<property name="phase">
-			<value>36</value>
-		</property>
-		<property name="depth">
-			<value>4</value>
-		</property>
-		<property name="direction">
-			<value>-100</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a922e768-9782-4837-9eb3-7ea18e1efc30}">
