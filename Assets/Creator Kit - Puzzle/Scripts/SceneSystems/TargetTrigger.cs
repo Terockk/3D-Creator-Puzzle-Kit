@@ -12,15 +12,15 @@ public class TargetTrigger : MonoBehaviour
     public ParticleSystem completeParticleSystem;
 
     bool win = false;
-    FMOD.Studio.EventInstance musicEventInstance;
-    FMOD.Studio.EventInstance WinStop;
 
-    AudioSource m_AudioSource;
+    FMOD.Studio.Bus MusicBus;
+
+    //AudioSource m_AudioSource;
 
     void Awake()
     {
-        m_AudioSource = GetComponent<AudioSource>();
-        musicEventInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Gameplay Music");
+        MusicBus = FMODUnity.RuntimeManager.GetBus("Bus:/Music");
+        //m_AudioSource = GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -34,9 +34,9 @@ public class TargetTrigger : MonoBehaviour
             // Check if win is false before playing the FMOD event
             if (!win)
             {
-                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/General/Win");
+                MusicBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Music/Win");
                 win = true;
-                WinStop.setParameterByName("Win Stop", 1f);
             }
         }
     }

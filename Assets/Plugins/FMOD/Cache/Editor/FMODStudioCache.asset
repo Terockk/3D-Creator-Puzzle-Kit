@@ -380,33 +380,6 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 20
   Length: 1033
---- !u!114 &-1331281514010327067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/UI/General/Win
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/UI/General/Win
-  Guid:
-    Data1: -361529305
-    Data2: 1269958292
-    Data3: -1790790232
-    Data4: -270675140
-  Banks:
-  - {fileID: 6039540616097565078}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
 --- !u!114 &-820290795268849995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,15 +447,15 @@ MonoBehaviour:
   - {fileID: 4996692945563091657}
   - {fileID: -1428831327516925944}
   - {fileID: 5924981488520964785}
-  - {fileID: -1331281514010327067}
   - {fileID: -4655610737737588131}
+  - {fileID: 6437355259769955033}
   EditorParameters:
   - {fileID: 384743092759453440}
   MasterBanks:
   - {fileID: 6039540616097565078}
   StringsBanks:
   - {fileID: 169480717871468592}
-  cacheTime: 638402298504673974
+  cacheTime: 638402323379517410
   cacheVersion: 131605
 --- !u!114 &169480717871468592
 MonoBehaviour:
@@ -499,10 +472,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638402298504673974
+  lastModified: 638402323379517410
   FileSizes:
   - Name: Desktop
-    Value: 2576
+    Value: 2536
   Exists: 1
 --- !u!114 &347677468137576367
 MonoBehaviour:
@@ -634,8 +607,7 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters:
-  - {fileID: 6047207254894239734}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 32000
@@ -858,12 +830,12 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Project/3D-Creator-Puzzle-Kit/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638402298504648840
+  lastModified: 638402323379497412
   FileSizes:
   - Name: Desktop
-    Value: 1929664
+    Value: 1929568
   Exists: 1
---- !u!114 &6047207254894239734
+--- !u!114 &6437355259769955033
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -872,21 +844,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Gameplay Music/Win Stop
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Win
   m_EditorClassIdentifier: 
-  Name: Win Stop
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3082788755
-    data2: 4048237819
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/Music/Win
+  Guid:
+    Data1: -361529305
+    Data2: 1269958292
+    Data3: -1790790232
+    Data4: -270675140
+  Banks:
+  - {fileID: 6039540616097565078}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4900
 --- !u!114 &6616600719146656619
 MonoBehaviour:
   m_ObjectHideFlags: 0
