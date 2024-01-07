@@ -12,25 +12,31 @@ public class TargetTrigger : MonoBehaviour
     public ParticleSystem completeParticleSystem;
 
     bool win = false;
+    FMOD.Studio.EventInstance musicEventInstance;
+    FMOD.Studio.EventInstance WinStop;
 
     AudioSource m_AudioSource;
 
-    void Awake ()
+    void Awake()
     {
-        m_AudioSource = GetComponent<AudioSource> ();
+        m_AudioSource = GetComponent<AudioSource>();
+        musicEventInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Gameplay Music");
     }
 
-    void OnTriggerEnter (Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other == marble)
         {
             completeParticleSystem.Play();
-            timingRecording.GoalReached (uiDelay);
-            targetGroupWeightControl.ApplySpecificFocus (marble.attachedRigidbody);
-            if (win == false)
+            timingRecording.GoalReached(uiDelay);
+            targetGroupWeightControl.ApplySpecificFocus(marble.attachedRigidbody);
+
+            // Check if win is false before playing the FMOD event
+            if (!win)
             {
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/General/Win");
                 win = true;
+                WinStop.setParameterByName("Win Stop", 1f);
             }
         }
     }

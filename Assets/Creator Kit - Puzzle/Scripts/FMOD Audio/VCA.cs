@@ -14,14 +14,22 @@ namespace DreamTeam.Runtime.Systems.FMODSystem
         {
             vca = FMODUnity.RuntimeManager.GetVCA("vca:/" + VCAName);
             slider = GetComponent<Slider>();
-            //slider.value = 0.1f;
-        }
 
+            // Load the saved volume from PlayerPrefs
+            float savedVolume = PlayerPrefs.GetFloat(VCAName + "_Volume", 0.1f);
+            slider.value = savedVolume;
+
+            // Set the volume based on the loaded value
+            SetVolume(savedVolume);
+        }
 
         public void SetVolume(float volume)
         {
             vca.setVolume(volume);
-        }
 
+            // Save the current volume to PlayerPrefs
+            PlayerPrefs.SetFloat(VCAName + "_Volume", volume);
+            PlayerPrefs.Save();
+        }
     }
 }

@@ -540,6 +540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goal
       objectReference: {fileID: 0}
+    - target: {fileID: 1894888563, guid: 265978cc11efcb246b02b68be4f3e358, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 1894888565, guid: 265978cc11efcb246b02b68be4f3e358, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -760,6 +764,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560609905750861370, guid: 0478f95790edb8d49bdda38268c49b62,
+        type: 3}
+      propertyPath: StopEvent
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560609905750861370, guid: 0478f95790edb8d49bdda38268c49b62,
+        type: 3}
+      propertyPath: AllowFadeout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560609905750861370, guid: 0478f95790edb8d49bdda38268c49b62,
+        type: 3}
+      propertyPath: CollisionTag
+      value: Finish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0478f95790edb8d49bdda38268c49b62, type: 3}
